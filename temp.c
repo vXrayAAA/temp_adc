@@ -402,7 +402,7 @@ httpd_uri_t uri_get =
 
 httpd_uri_t uri_get_rgb = 
     {
-    .uri = "/cor",
+    .uri = "/temperatura",
     .method = HTTP_GET,
     .handler = get_handler_rgb,
     .user_ctx = NULL
